@@ -7,7 +7,7 @@
   });
 
   //Youtube api KEY
-  var apiKey = 'AIzaSyDphEohRTk4qssurKERev65mubm3J4iY8k'
+  var apiKey = '###############'
   var video = '';
 
   //Determine if form is searching
@@ -160,7 +160,7 @@ function getCovidNews(result) {
   fetch('https://covid-19-news.p.rapidapi.com/v1/covid?q=covid&lang=en&country=' + result + '&media=True', {
     "method": "GET",
     "headers": {
-      "x-rapidapi-key": "2d2dea647fmsh577c57bb54abd69p13249djsn06827c6f1fe8",
+      "x-rapidapi-key": "################",
       "x-rapidapi-host": "covid-19-news.p.rapidapi.com"
     }
   }).then(response => response.json())
