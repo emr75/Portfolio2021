@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Safe Travels</title>
+  <script src="jquery-3.5.1.js"></script>
+  <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+  <script src="./js/scripts.js"></script>
+  
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <a href="#">
+          <li>Home</li>
+        </a>
+        <a href="#newsSection">
+          <li>News</li>
+        </a><a href="#ytSection">
+          <li>Videos</li>
+        </a>
+      </ul>
+    </nav>
+    <div class="heroSection">
+      <video autoplay loop controls>
+        <source src="./Videos/Pexels Videos 2169879.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h1>Safe Travels</h1>
+      <a class="buttons" id="explore" href="#section1">Start Exploring</a>
+    </div>
+  </header>
+  <!-- End of Header -->
+  <!-- Main -->
+  <main>
+    <section id="section1">
+      <div id="section1-text">
+      <form name="theForm" id="form">
+        <h2>Pick a Country</h2>
+        <div class="form-group">
+          <input type="text" class="form-control" name="theForm1" id="search" placeholder="Canada">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-danger" value="search" onclick="getAddress()">Search</button>
+        </div>
+      </form>
+      <div id="topCountries">
+        <h3 id="headTitle">Popular Countries</h3>
+        <div id="mainContain">
+          <div class="panelContainer">
+            <h4>Mexico</h4>
+            <p class="contentBox">Mexico, officially the United Mexican States, is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico.</p>
+          </div>
+          <div class="panelContainer">
+            <h4>Jamaica</h4>
+            <p class="contentBox">Jamaica, a Caribbean island nation, has a lush topography of mountains, rainforests and reef-lined beaches. Many of its all-inclusive resorts are clustered in Montego Bay, with its British-colonial architecture, and Negril, known for its diving and snorkeling sites.</p></div>
+          <div class="panelContainer">
+            <h4>United States</h4>
+            <p class="contentBox">The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC.</p>
+          </div>
+          <div class="panelContainer">
+            <h4>Australia</h4>
+            <p class="contentBox">Australia, officially the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div id="map"></div>
+    </section>
+
+    <section>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP8jZFaF_THcst68NSrZA4h4DOjcqGM5E&callback=initMap"
+        async defer></script>
+      <h2 class="sectionTitle" id="ytSection">Where to?</h2>
+    </section>
+    <section>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <div id="videos">
+      </div>
+    </section>
+    <section id="section4">
+      <h3 class="sectionTitle" id="newsSection">Canadian Covid News</h3>
+      <div class="news"></div>
+    </section>
+    <section id="section5">
+      <h2 class="sectionTitle">Possibilities are Endless</h2>
+      <a class="buttons" href="#section1">Try Now!</a>
+    </section>
+  </main>
+  <!-- End of Main -->
+  <!-- Footer -->
+  <footer>
+    <p>Travel API Project - Humber - Eleanor Robertson </p>
+  </footer>
+  <!-- End of Footer -->
+</body>
+
+</html>

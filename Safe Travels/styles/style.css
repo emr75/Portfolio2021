@@ -1,0 +1,220 @@
+/* Table of Contents */
+/* 1. Google Font */
+/* 2. Global Changes */
+/* 3. Header */
+/* 3.1 Nav */
+/* 4. Main */
+/* 4.1 Section 1 */
+/* 4.2 Section 2 */
+/* 4.3 Section 3 */
+/* 4.4 Section 4 */
+/* 5. Footer */
+/* 6. Media Queries */
+/* 6.1 MediaQuery: Split Screen */
+/* 6.2 MediaQuery: Tablet */
+/* 6.3 MediaQuery: Mobile */
+
+
+/* 1. Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap");
+
+/* 2. Global Changes */
+
+html {
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+body {
+    background-color: antiquewhite;
+    font: normal 1em/2.8em "Noto Serif" , "sans-serif";
+    color: black;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style: none;
+    margin: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.buttons {
+  background-color: #2c2c2cc9;
+  color: white;
+  border-radius: 1.5em;
+  padding: 0.5em 1.5em;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+h2 {
+  font-size: 2em;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 100%;
+}
+nav a {
+  font-size: 1.3em;
+}
+li {
+  padding: 0 1em;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+/* 3. Header */
+
+/* 3.1 Nav */
+nav {
+  display: flex;
+  background: #ffc4b5;
+}
+.heroSection {
+  position: relative;
+}
+video {
+  width: 100%;
+}
+h1 {
+  position: absolute;
+  top: 21%;
+  left: 37%;
+  font-size: 5em;
+}
+#explore {
+  position: absolute;
+  left: 45%;
+  top: 46%;
+}
+
+/* Section 1 */
+#section1 {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    border-radius: 2em;
+    margin: 0 4em;
+    padding: 2em;
+}
+#section1-text {
+  text-align: center;
+  width: 40%;
+}
+#search {
+  border-radius: 1em;
+  width: 25EM;
+  height: 4em;
+  font-family: inherit;
+}
+#topCountries {
+  line-height: 2em;
+}
+#mainContain {
+  font-size: smaller;
+}
+#section1 h4 {
+  border: solid 1px black;
+  box-shadow: 0 4px 8px 0 #999, 0 6px 20px 0 rgb(0 0 0 / 19%);
+  background-color: #ffc4b5;
+}
+h4:hover {
+  cursor: pointer;
+}
+.contentBox{
+	padding: 15px;
+}
+
+/*Text Panel Styling*/
+.panelContainer{
+  margin: 0 8em;
+}
+.newsSlot {
+  line-height: 1em;
+  margin: 0 1em;
+  background-color: #ffc4b5;
+  padding: 1em 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1em;
+}
+.newsSlot img {
+  width: 40em;
+  height: 15em;
+}
+#map {
+  height:500px; 
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  overflow: hidden;
+  margin-top: 6em;
+}
+.news {
+  display: flex;
+  font-family: 'Serif';
+  padding-bottom: 4em;
+  margin: 2em 12em 0;
+}
+#ytSection {
+  text-align: left;
+  padding-left: 1em;
+}
+.sectionTitle {
+  background-color: rgb(113, 184, 197);
+  border: 1px solid;
+  box-shadow: -5px -5px rgb(75, 124, 133);
+  height: 2em;
+  font-size: 4em;
+  padding-top: 0.5em;  
+  margin: 0;
+
+}
+#section4 {
+  background-image: url('../Images/apiBg.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section5 {
+  background-image: url(../Images/pexels-nappy-1154638.jpg);
+  height: 35em;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#section5 .buttons {
+  position: absolute;
+  width: 16%;
+  font-size: large;
+  top: 43%;
+  right: 10%;
+}
+#newsSection {
+  text-align: right;
+  padding-right: 1em;
+}
+#videos {
+  padding-top: 2em;
+}
+footer {
+  background-color: rgb(113, 184, 197);
+  text-align: center;
+  height: 7em;
+  margin-top: 0;
+  padding-top: 2em;
+}
