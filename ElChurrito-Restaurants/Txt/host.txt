@@ -1,0 +1,14 @@
+<div>
+<p><strong>Host</strong></p>
+<span> A host or hostess is responsible for the customers' initial reaction in any casual or fine dining restaurant. They must smile and greet customers, then take them to their seats and distribute menus. They are also responsible for answering phone calls and scheduling reservations.</span>
+<p><em>Job Requirements:</em></p>
+<ol>
+<li>Patience.</li>
+<li>Excellent people skills.</li>
+<li>Work under pressure.</li>
+<li>Highly Organized</li>
+</ol>
+</div>
+
+
+

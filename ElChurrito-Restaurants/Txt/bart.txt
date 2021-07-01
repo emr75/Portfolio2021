@@ -1,0 +1,14 @@
+<div>
+<p><strong>Bartender</strong></p>
+<span> Restaurant bartenders may serve customers directly or give their creations to servers for delivery, but either way, they must have an excellent memory and work well under pressure. A formal <em>bartending education</em> may be required at some restaurants, but many will hire based on experience.</span>
+<p><em>Job Requirements:</em></p>
+<ol>
+<li>Excellent memory.</li>
+<li>Ability to work quickly and efficiently.</li>
+<li>Excellent people skills.</li>
+</ol>
+</div>
+
+
+
+

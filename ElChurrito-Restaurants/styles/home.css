@@ -1,0 +1,336 @@
+/* Table of Contents */
+/* 1. Google Font */
+/* 2. Global Changes */
+/* 3. Header */
+/* 3.1 Nav */
+/* 4. Main */
+/* 5. Footer */
+
+
+/* 1. Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+/* 2. Global Chnages */
+
+html {
+    box-sizing: border-box;
+    margin: auto;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+body {
+    background-color: #ffffcd;
+    background-image: url(../images/elChurritoBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
+    font: normal 1em/2.8em "Bahnschrift", "sans serif";
+}
+main {
+max-width: 1200px;
+margin-left: 22em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    font-size: 1.4em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #ff6c08;
+}
+.dropdownContents a:hover {
+    color: white;
+}
+p {
+    font-size: 1.4em;
+}
+.orangeLinks {
+    background: #ff6c08;
+    color: white;
+    border-radius: .8em;
+    padding: .8em .8em;
+    font: normal 1.7em/1em "Bahnschrift", "sans serif";
+}
+.orangeLinks:hover {
+    color: black;
+}
+.heading {
+    font:normal 4.5em/1.5 'lobster', 'sans serif';
+    text-align: center;
+    margin-bottom: 0;
+}
+.logo {
+    width: 6em;
+}
+
+.hiddenImage {
+    display: none;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+/* 3. Header */
+
+/* 3.1 Nav */
+
+Nav {
+    padding: 1.5em 0 1.5em 4em;
+    justify-content: space-between;
+}
+nav ul {
+    align-items: center;
+    justify-content: space-around;
+    width: 92%;
+}
+
+.dropdownContents {
+    display: none;
+    position: absolute;
+    color: white;
+    background-color: #ff6c08;
+    padding: 0.7em 0.9em;
+
+}
+.dropdown:hover .dropdownContents {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+.dropdownContents a:hover {
+    color: white;
+}
+nav .orangeLinks {
+    padding: 1em;
+    font-size: inherit;
+}
+
+/* End of Header */
+
+
+/* 4. Main */
+
+main, footer p {
+    font-size: 0.9em;
+}
+
+#heroBanner {
+    padding-top: 4em;
+    display: inline-block;
+}
+#heroText {
+    position: absolute;
+    padding: 2% 35% 0 3%;
+}
+#heroBanner img {
+    float: right;
+    width: 70%;
+    position: relative;
+}
+#heroFrame {
+    position: relative;
+    border: 1px solid #ff6c08;
+    padding: 24% 35%;
+    float: right;
+    bottom: 41em;
+    right: 2em;
+    margin-bottom: -49%;
+}
+
+h1 {
+    color: black;
+    font: normal 6.5em/1.5em 'lobster', 'sans serif';
+    margin-bottom: 5%;
+    text-shadow: 1px 1px 3px #ffffff;
+    line-height: 113%;
+}
+
+/* Section 1 */
+
+#section1a .heading {
+text-align: left;
+padding-right: 70%;
+margin-top: 7%;
+padding-left: 4%;
+}
+#section1a img {
+    width: 88%;
+    position: relative;
+}
+#star {
+    background: #fdbc92;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    transform: rotate(20deg);
+    margin: -9em 0 0 40em;
+    z-index: 1;
+}
+#star::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 300px;
+    background: #fdbc92;
+    transform: rotate(135deg);
+}
+#promo {
+    position: absolute;
+    z-index: 2;
+    transform: rotate(-19deg);
+    right: -1em;
+    font-size: 1.8em;
+} 
+#promoTimer {
+    margin-top: 0;
+    font-size: 2.7em;
+    margin-bottom: 0.5em;
+}
+#section1b .orangeLinks {
+    font-size: x-large;
+}
+#foodOnTable {
+    background-color: #ffffcd;
+    padding: 1em;
+    width: 26em;
+    position: relative;
+    top: -24em;
+    float: right;
+}
+#foodOnTable img {
+    border: 1px solid #ff6c08;
+    padding: 1.3em;
+}
+
+/* Section 2 */
+
+#section2 {
+    margin-top: 21%;
+}
+#section2 img {
+    width: 60%;
+}
+#contests {
+    position: relative;
+    left: 44%;
+    top: -28em;
+    background: #ffffcd;
+    padding: 3em 0;
+    width: 52%;
+    text-align: center;
+    margin-bottom: -32%;
+}
+#contestsFrame {
+    border: 1px solid #ff6c08;
+    position: absolute;
+    padding: 10em 23em;
+    top: 3em;
+    right: -2em;
+}
+#contests .orangeLinks,
+.clickMe {
+    position: inherit;
+    z-index: 1;
+}
+#contests .orangeLinks,
+#caterBox2Frame .orangeLinks {
+    display: block;
+    margin: 0 6em 0 7em;
+}
+.clickMe {
+    padding-left: 1.5em;
+    font-size: x-large;
+}
+#section2 h2 {
+    margin-top: 0;
+}
+#section2 p {
+    padding-left: 1.5em;
+}
+
+/* Section 3 */
+
+#section3 {
+    margin-top: 18%;
+    margin-bottom: -30%;
+}
+#section3 img {
+    width: 39%;
+}
+#foodBowl {
+    float: right;
+}
+#cheers {
+    margin-top: 31%;
+}
+#caterBox1 {
+    width: 33%;
+    position: relative;
+    left: 31em;
+    bottom: 53em;
+    background: #ffffcd;
+    padding: 3% 2%;
+}
+#caterBox1 h2 {
+    border: 1px #ff6c08 solid;
+    margin: 0;
+}
+#caterBox2 {
+    width: 46%;
+    position: relative;
+    left: 25em;
+    bottom: 44em;
+    background: #ffffcd;
+    padding: 3% 2%;
+    text-align: center;
+}
+#caterBox2Frame {
+    border: 1px #ff6c08 solid;
+    margin: 0;
+    padding: 3% 5% 9% 5%;
+}
+
+/* End of Main*/
+
+/* 5. Footer */
+
+footer {
+    border-top: 1px solid black;
+    padding-top: 2em;
+    margin: 0 4em;
+    text-align: center;
+    font-size: smaller;
+}
+#footerLinks {
+    display: inline;
+}
+footer ul {
+    display: inline-block;
+    padding: 1% 7% 1% 4%;
+    line-height: 2.5em;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+}
+footer img {
+    margin: 0 2.5em;
+}
+
+/* End of Footer */
+
+/* End of Page */

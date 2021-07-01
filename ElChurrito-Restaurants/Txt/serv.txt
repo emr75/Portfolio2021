@@ -1,0 +1,13 @@
+<div>
+<p><strong>Server</strong></p>
+<span> A good server can make or break the customer experience. Responsible for taking orders in a friendly manner, reporting orders to the kitchen, and calculating the bill, servers play an essential role in any casual or fine dining restaurant.</span>
+<p><em>Job Requirements:</em></p>
+<ol>
+<li>Excellent memory.</li>
+<li>Excellent people skills.</li>
+<li>Ability to work quickly and efficiently.</li>
+</ol>
+</div>
+
+
+

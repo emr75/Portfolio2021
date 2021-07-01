@@ -1,0 +1,12 @@
+<div>
+<p><strong>Dishwasher</strong></p>
+<span> Essential members of any restaurant staff, dishwashers are not only responsible for making sure dishware is spotless, but they must also keep the kitchen clean and clear of garbage and hazardous clutter.</span>
+<p><em>Job Requirements:</em></p>
+<ol>
+<li>Works well with others.</li>
+<li>Ability to work quickly and efficiently.</li>
+</ol>
+</div>
+
+
+

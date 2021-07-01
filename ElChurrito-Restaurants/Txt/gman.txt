@@ -1,0 +1,13 @@
+<div>
+<p><strong>General Manager</strong></p>
+<span> General managers play a key role in every restaurant. They are responsible for hiring applicants, letting employees go, training new hires, overseeing general restaurant activities, and working on marketing and community outreach strategies. They may also help to set menu prices and purchase supplies.</span>
+<p><em>Job Requirements:</em></p>
+<ol>
+<li>Excellent people skills.</li>
+<li>Work under pressure.</li>
+<li>May require 3-4 years experience.</li>
+</ol>
+</div>
+
+
+

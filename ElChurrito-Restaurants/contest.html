@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thao Le">
+    <meta name="description" content="Contest - El Charito">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/contest.css">
+    <script src="./scripts/contest.js"></script>
+    <title>El Charrito</title>
+</head>
+
+<body>
+
+    <!-- Start of Header -->
+    <header>
+
+        <!-- Nav -->
+        <nav class="flexContainer">
+            <a href="./index.html"><img class="logo" src="./images/logo.png" alt="Sumbrero and mustache"></a>
+            <ul class="flexContainer">
+                <li><a href="./about.html">About Us</a></li>
+                <li class="dropdown"><a href="./menu.html">Our Menu</a></li>
+                <li><a href="./location.html">Location</a></li>
+                <li class="dropdown"><a href="./events.html">Events</a>
+                    <div class="dropdownContents">
+                        <a href="./events.html">Events</a>
+                        <a href="./contest.html">Contests</a>
+                        <a href="./giftcards.html">Gift Cards</a>
+                    </div>
+                </li>
+                <li><a href="./contactus.html">Contact Us</a></li>
+                <li><a class="orangeLinks" href="./order.html">Order Online</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End of Header -->
+
+
+    <!-- Start of main -->
+
+
+    <main>
+        <img src="./images/coupon.png" alt="50% off coupon">
+        <form name="contestForm">
+            <label class="luckyNumber" for="luckNumber">Please choose a number (1-100) and click the button for a chance
+                to win a 50% off
+                coupon from
+                us!</label><br>
+            <input type="number" min=1 max=100 id="luckNumber" name="luckNumber"><br>
+            <input type="submit" id="button" value="Good luck!">
+        </form>
+
+        <p id="contestResult"></p>
+
+    </main>
+
+
+    <!-- End of main -->
+
+
+    <!-- Footer -->
+    <footer>
+        <a href="#"><img class="logo" src="./images/logo.png" alt="Sumbrero and mustache"></a>
+        <div id="footerLinks">
+            <ul>
+                <li><a href="./index.html">Home</a></i>
+                <li><a href="./menu.html">Our Menu</a></li>
+                <li><a href="./specials.html">Specials</a></li>
+            </ul>
+            <ul>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./location.html">Location</a></i>
+                <li><a href="./events.html">Events</a></li>
+            </ul>
+            <ul>
+                <li><a href="./giftcards.html">Gift Cards</a></li>
+                <li><a href="./contest.html">Contests</a></li>
+                <li><a href="./contactus.html">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li><a href="./sitemap.html">Site Map</a></li>
+                <li><a href="./careers.html">Careers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <p>© Copyright El Churrito, 2020. All rights reserved.</p>
+    </footer>
+    <!-- End of Footer -->
+
+</body>
+<!-- End of Body -->
+
+</html>
+<!-- End of Page -->

@@ -1,0 +1,41 @@
+span {
+    color: green;   
+    font-weight: bold;
+}
+#thankyou{
+    display: none;
+}
+main {
+    text-align: center;    
+}
+form { 
+    margin-top: 20px;    
+    text-align: center;
+}
+.info{
+	display: inline-block;	 	
+}
+fieldset {
+    padding-top: 40px;
+    border: none;
+    margin-bottom: 2em;
+}
+label {
+    font-size: large;
+    color: #ff6c08;
+}
+input {
+    width: 30em;
+    margin: 1em;
+}
+select {
+    margin-top: 3em;
+}
+#message {
+    padding: 50px 100px;
+    margin: 3em 0;
+    width: 80%;
+}
+
+
+/* End of Page */

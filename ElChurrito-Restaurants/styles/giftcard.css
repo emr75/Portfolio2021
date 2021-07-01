@@ -1,0 +1,40 @@
+.master-container {
+    display: flex;
+    flex-flow: row;
+    width: 25em;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+body {
+    text-align: center;
+}
+#form-section {
+    padding: 5em 2em;
+    margin-bottom: 5em;
+}
+
+.gift-card-instructions {
+    margin: -4em auto;
+    width: 35vw;
+    padding: 1em 0.5em 7em;
+}
+
+.gift-card-form {
+    margin: 10em auto 0;
+    padding-bottom: 20px;
+    width: 35vw;
+}
+
+fieldset {
+    display: flex;
+    flex-flow: column;
+}
+
+input {
+    display: block;
+}
+
+.create-button {
+    font-size: inherit;
+    margin-left: 8em;
+}

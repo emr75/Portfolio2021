@@ -1,0 +1,13 @@
+.luckyNumber{
+  font-size: 1.5em;
+}
+#contestResult{
+  display: none;
+  background-color: #ff6c08;
+  color: white;
+  padding: 0.5em 1.2em;
+  text-align: center;
+}
+body {
+  text-align: center;
+}

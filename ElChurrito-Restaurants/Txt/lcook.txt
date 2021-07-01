@@ -1,0 +1,13 @@
+<div>
+<p><strong>Line Cook</strong></p>
+<span> Although the duties differ depending upon the establishment, line cooks can be found in most restaurants, excluding fast food. A line cook may be responsible for one or multiple areas of the kitchen, such as the grill or fryer, depending upon the size and scale of the restaurant.</span>  
+<p><em>Job Requirements:</em></p>
+<ol>
+<li>Works well with others.</li>
+<li>Ability to work quickly and efficiently.</li>
+<li>Experience in restaurant is an asset.</li>
+</ol>
+</div>
+
+
+

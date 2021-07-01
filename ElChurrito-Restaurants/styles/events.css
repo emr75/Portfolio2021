@@ -1,0 +1,23 @@
+.master-container {
+    margin-top: 4em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-container {
+    height: 20%;
+    width: 20%;
+    transition: all 1.5s;
+}
+
+.image-container:hover {
+    height: 25%;
+    width: 25%;
+    transition: all 1.5s;
+}
+
+.event {
+    text-align: center;
+}

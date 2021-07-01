@@ -1,0 +1,13 @@
+<div>
+<p><strong>Kitchen Manager</strong></p>
+<span> Like general managers, kitchen managers are responsible for hiring and firing employees, buying supplies and ingredients, and ensuring quality. However, a general manager controls both kitchen employees and front-of-house employees, whereas a kitchen manager only manages back-of-house operations.</span>  
+<p><em>Job Requirements:</em></p>
+<ol>
+<li>Excellent people skills.</li>
+<li>Work under pressure.</li>
+<li>May require 3-4 years experience.</li>
+</ol>
+</div>
+
+
+

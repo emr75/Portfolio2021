@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="./Scripts/jquery-3.5.1.js"></script>
+  <script src="./Scripts/menu.js"></script>
+  <meta charset="utf-8">
+  <title>El Charrito</title>
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" type="text/css" href="./Styles/menu.css">
+  <meta name="El Charrito" content="Mexican Restaurant" />
+</head>
+
+<body>
+  <!-- Start of Header -->
+  <header>
+    <!-- Nav -->
+    <nav class="flexContainer">
+      <a href="./index.html"><img class="logo" src="./images/logo.png" alt="Sumbrero and mustache"></a>
+      <ul class="flexContainer">
+        <li><a href="./about.html">About Us</a></li>
+        <li class="dropdown"><a href="./menu.html">Our Menu</a></li>
+        <li><a href="./location.html">Location</a></li>
+        <li class="dropdown"><a href="./events.html">Events</a>
+          <div class="dropdownContents">
+            <a href="./events.html">Events</a>
+            <a href="./contest.html">Contests</a>
+            <a href="./giftcards.html">Gift Cards</a>
+          </div>
+        </li>
+        <li><a href="./contactus.html">Contact Us</a></li>
+        <li><a class="orangeLinks" href="./order.html">Order Online</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- End of Header -->
+  <!-- Start of Main -->
+  <main>
+    <h1 class="heading">Menu</h1>
+    <div class="flexContainer">
+      <div id="mainbox1">
+        <!--Row 1-->
+        <!--Pics from the menu-->
+        <div class="Meals">
+          <img class="pics pics1" src="images/tacos.jpg" width="200" alt="Plate of Tacos" />
+          <img class="pics pics2" src="images/pozole.jpg" width="200" alt="Pozole" />
+          <img class="pics pics3" src="images/champu.jpg" width="200" alt="Champu drink" />
+        </div>
+      </div>
+      <div id="mainbox2">
+        <!--Row 2-->
+        <div class="panelbox">
+          <!-- 1ST PANEL-->
+          <h2 class="h2a">BreakFast</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><em>Huevos Rancheros</em></td>
+                <td>$ 12</td>
+              </tr>
+              <tr>
+                <td><em>Chilaquiles</em></td>
+                <td>$ 12</td>
+              </tr>
+              <tr>
+                <td><em>Quesadillas Fritas</em></td>
+                <td>$ 14</td>
+              </tr>
+              <tr>
+                <td><em>Tamales</em></td>
+                <td>$ 10</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="panelbox">
+          <!-- 2ND PANEL-->
+          <h2 class="h2a">Main-Dishes</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><em>Grilled Steak Tacos</em></td>
+                <td>$ 16</td>
+              </tr>
+              <tr>
+                <td><em>Pescado Encarcelado</em></td>
+                <td>$ 18</td>
+              </tr>
+              <tr>
+                <td><em>Huarache con Carne Asada</em></td>
+                <td>$ 14</td>
+              </tr>
+              <tr>
+                <td><em>Chicken Enchiladas</em></td>
+                <td>$ 16</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="panelbox">
+          <!-- 3RD PANEL-->
+          <h2 class="h2a">Soup & Sides</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><em>Pozole</em></td>
+                <td>$ 9</td>
+              </tr>
+              <tr>
+                <td><em>Sopa de Lima</em></td>
+                <td>$ 8</td>
+              </tr>
+              <tr>
+                <td><em>Flautas</em></td>
+                <td>$ 9</td>
+              </tr>
+              <tr>
+                <td><em>Guisada de Pollo</em></td>
+                <td>$ 9</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="panelbox">
+          <!-- 4TH PANEL-->
+          <h2 class="h2a">Desserts</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><em>Tres Leches</em></td>
+                <td>$ 6</td>
+              </tr>
+              <tr>
+                <td><em>Churros with chocolates</em></td>
+                <td>$ 5</td>
+              </tr>
+              <tr>
+                <td><em>Spice Rice Pudding</em></td>
+                <td>$ 5</td>
+              </tr>
+              <tr>
+                <td><em>Dulce Leche Asada</em></td>
+                <td>$ 6</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="panelbox">
+          <!-- 5TH PANEL-->
+          <h2 class="h2a">Drinks</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><em>Agua de Jamaica</em></td>
+                <td>$ 4</td>
+              </tr>
+              <tr>
+                <td><em>Horchata</em></td>
+                <td>$ 4</td>
+              </tr>
+              <tr>
+                <td><em>Champurrado</em></td>
+                <td>$ 6</td>
+              </tr>
+              <tr>
+                <td><em>Agua Fresca</em></td>
+                <td>$ 3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!--More Pics from the menu-->
+      <div class="Meals">
+        <img class="pics pics1" src="images/tacos.jpg" width="200" alt="Plate of Tacos" />
+        <img class="pics pics2" src="images/pozole.jpg" width="200" alt="Pozole" />
+        <img class="pics pics3" src="images/champu.jpg" width="200" alt="Champu drink" />
+      </div>
+    </div>
+  </main>
+  <!--END of Main-->
+  <!-- Footer -->
+  <footer>
+    <a href="#"><img class="logo" src="./images/logo.png" alt="Sumbrero and mustache"></a>
+    <div id="footerLinks">
+      <ul>
+        <li><a href="./index.html">Home</a></i>
+        <li><a href="./menu.html">Our Menu</a></li>
+        <li><a href="./specials.html">Specials</a></li>
+      </ul>
+      <ul>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./location.html">Location</a></i>
+        <li><a href="./events.html">Events</a></li>
+      </ul>
+      <ul>
+        <li><a href="./giftcards.html">Gift Cards</a></li>
+        <li><a href="./contest.html">Contests</a></li>
+        <li><a href="./contactus.html">Contact Us</a></li>
+      </ul>
+      <ul>
+        <li><a href="./sitemap.html">Site Map</a></li>
+        <li><a href="./careers.html">Careers</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <p>© Copyright El Churrito, 2020. All rights reserved.</p>
+  </footer>
+  <!-- End of Footer -->
+</body>
+
+</html>

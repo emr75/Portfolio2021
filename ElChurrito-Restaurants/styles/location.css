@@ -1,0 +1,29 @@
+.location {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#map {
+	height: 400px;
+	width: 80%;
+}
+
+.address {
+	display: flex;
+	margin: 2em 0;
+	font-size: 1.6em;
+	background: #ffffcd;
+	border: 1px #ff6c08 solid;
+	padding: 0.6em 1.2em;
+}
+
+.address-line {
+	margin-right: 0.2em;
+}
+
+.al-1 {
+	text-transform: uppercase;
+	color: #ff6c02;
+}

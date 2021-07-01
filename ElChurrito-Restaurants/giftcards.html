@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bryan Hughes">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Location">
+    <title>Gift Card</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/giftcard.css">
+    <script src="scripts/giftCardScript.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="flexContainer">
+            <a href="./index.html"><img class="logo" src="./images/logo.png" alt="Sumbrero and mustache"></a>
+            <ul class="flexContainer">
+                <li><a href="./about.html">About Us</a></li>
+                <li class="dropdown"><a href="./menu.html">Our Menu</a></li>
+                <li><a href="./location.html">Location</a></li>
+                <li class="dropdown"><a href="./events.html">Events</a>
+                    <div class="dropdownContents">
+                        <a href="./events.html">Events</a>
+                        <a href="./contest.html">Contests</a>
+                        <a href="./giftcards.html">Gift Cards</a>
+                    </div>
+                </li>
+                <li><a href="./contactus.html">Contact Us</a></li>
+                <li><a class="orangeLinks" href="./order.html">Order Online</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="master-container">
+            <section id="img-section">
+                <img src="images/gift_card.svg" alt="Gift Card graphic" class="gift-card">
+                <p id="p" class="gift-card-instructions">
+                    Fill out the following form accordingly to make a custom gift card for friends, family, co-workers
+                    or even yourself.
+                </p>
+            </section>
+            <section id="form-section">
+                <form id="giftCard" name="giftCard" class="gift-card-form">
+                    <fieldset>
+                        <label for="yourName">
+                            Your Name
+                        </label>
+                        <input type="text" id="yourName" name="yourName" placeholder="Jane Doe">
+                        <label for="personsName">
+                            Recipient's Name
+                        </label>
+                        <input type="text" id="personsName" name="personsName" placeholder="John Doe">
+                        <label for="email">
+                            Email
+                        </label>
+                        <input type="email" id="email" name="email" placeholder="someone@example.com">
+                        <label for="amount">
+                            Gift-Card Amount
+                        </label>
+                        <input type="number" id="amount" name="amount" placeholder="25.00">
+
+                    </fieldset>
+                </form>
+                <button id="submitBtn" class="orangeLinks create-button">
+                    Create Gift Card
+                </button>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <a href="#"><img class="logo" src="./images/logo.png" alt="Sumbrero and mustache"></a>
+        <div id="footerLinks">
+            <ul>
+                <li><a href="./index.html">Home</a></i>
+                <li><a href="./menu.html">Our Menu</a></li>
+                <li><a href="./specials.html">Specials</a></li>
+            </ul>
+            <ul>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./location.html">Location</a></i>
+                <li><a href="./events.html">Events</a></li>
+            </ul>
+            <ul>
+                <li><a href="./giftcards.html">Gift Cards</a></li>
+                <li><a href="./contest.html">Contests</a></li>
+                <li><a href="./contactus.html">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li><a href="./sitemap.html">Site Map</a></li>
+                <li><a href="./careers.html">Careers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <p>© Copyright El Churrito, 2020. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

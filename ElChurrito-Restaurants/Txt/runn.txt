@@ -1,0 +1,12 @@
+<div>
+<p><strong>Runner</strong></p>
+<span> Runners make servers’ jobs easier by delivering the food from the kitchen to the table both quickly and safely. It is their responsibility to ensure that food arrives as soon as it is ready, and at the proper temperature.</span>
+<p><em>Job Requirements:</em></p>
+<ol>
+<li>Work under pressure.</li>
+<li>Ability to work quickly and efficiently.</li>
+</ol>
+</div>
+
+
+

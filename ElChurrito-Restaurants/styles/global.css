@@ -1,0 +1,157 @@
+/* Table of Contents */
+/* 1. Google Font */
+/* 2. Global Changes */
+/* 3. Header */
+/* 3.1 Nav */
+/* 4. Main */
+/* 5. Footer */
+
+
+/* Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+/* Global Chnages */
+
+html {
+    box-sizing: border-box;
+    margin: auto;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+body {
+    background-color: #ffffcd;
+    background-image: url(../images/elChurritoBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: normal .9em/2.8em "Bahnschrift", "sans serif";
+}
+main {
+    max-width: 1200px;
+    margin-left: 22em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    font-size: 1.4em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #ff6c08;
+}
+p {
+    font-size: 1.4em;
+}
+.orangeLinks {
+    background: #ff6c08;
+    color: white;
+    border-radius: .8em;
+    padding: .8em .8em;
+    font: normal 1.7em/1em "Bahnschrift", "sans serif";
+}
+.orangeLinks:hover {
+    color: black;
+}
+.heading {
+    font:normal 4.5em/1.5 'lobster', 'sans serif';
+    text-align: center;
+    margin-bottom: 0;
+}
+.logo {
+    width: 6em;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+/* 3. Header */
+
+/* 3.1 Nav */
+
+Nav {
+    padding: 1.5em 0 1.5em 4em;
+    justify-content: space-between;
+}
+nav ul {
+    align-items: center;
+    justify-content: space-around;
+    width: 92%;
+}
+.dropdownContents {
+    display: none;
+    position: absolute;
+    color: white;
+    background-color: #ff6c08;
+    padding: 0.7em 0.9em;
+
+}
+.dropdown:hover .dropdownContents {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+.dropdownContents a:hover {
+    color: white;
+}
+nav .orangeLinks {
+    padding: 1em;
+    font-size: inherit;
+}
+
+/* End of Header */
+
+
+/* 4. Main */
+
+
+
+
+
+
+
+
+
+
+
+                                                /* End of Main*/
+
+                                                /* Footer */
+
+footer {
+    border-top: 1px solid black;
+    padding-top: 2em;
+    margin: 0 4em;
+    text-align: center;
+    font-size: smaller;
+}
+#footerLinks {
+    display: inline;
+}
+footer ul {
+    display: inline-block;
+    padding: 1% 7% 1% 4%;
+    line-height: 2.5em;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+}
+footer a {
+    font-size: 1.2em;
+}
+footer img {
+    margin: 0 2.5em;
+}
+
+                                                /* End of Footer */
+
+                                                /* End of Page */
