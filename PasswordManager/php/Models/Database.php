@@ -9,10 +9,10 @@ use PDOException;
     class Database {
 
         // These variables must be set to the specific database connection information.
-        private static $dbName = "tavl0054_pmWafadb";
-        private static $host = "142.4.196.160:3306";
-        private static $userName = "tavl0054_Elle";
-        private static $password = "OI01J%3s66C[";
+        private static $dbName = "##########";
+        private static $host = "########";
+        private static $userName = "#########";
+        private static $password = "#########";
 
         // Private variables to interact with the database.
         private static $dataSourceName;
