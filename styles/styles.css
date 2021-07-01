@@ -1,0 +1,552 @@
+/* Table of Contents */
+/* 1. Google Font */
+/* 2. Global Changes */
+/* 3. Header */
+/* 3.1 Nav */
+/* 4. Main */
+/* 4.1 Section 1 */
+/* 4.2 Section 2 */
+/* 4.3 Section 3 */
+/* 4.4 Section 4 */
+/* 5. Footer */
+/* 6. Media Queries */
+/* 6.1 MediaQuery: Split Screen */
+/* 6.2 MediaQuery: Tablet */
+/* 6.3 MediaQuery: Mobile */
+
+
+/* 1. Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+
+/* 2. Global Changes */
+
+html {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: auto;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+body {
+    background-color: #FCF7F4;
+    font: normal 1em/2.8em "Century Schoolbook", "serif";
+    color: black;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style: none;
+    margin: 0;
+}
+a {
+    color: black;
+}
+p {
+    font-size: 1.4em;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+.headingType1 {
+    font:normal 4.5em/1.5 'Castoro', 'serif';
+    margin: 0;
+}
+.headingtype2 {
+    font:normal 2em/1.5 "Century Schoolbook", 'serif';
+    margin: 0;
+}
+.headingtype2::first-letter {
+    font: normal 3em/1em "Monotype Corsiva", "serif";
+}
+
+/* 3. Header */
+
+/* 3.1 Nav */
+
+nav {
+    background: #ebd4c5;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+nav ul {
+    align-items: center;
+}
+nav li {
+    border-top: 4px double #50453b;
+    padding: 0 0.7em;
+}
+nav li:hover {
+    border-top: 4px solid #50453b;
+}
+nav a {
+    text-decoration: none;
+    color: #50453b;
+}
+#home {
+    color: inherit;
+    font-size: inherit;
+}
+nav .headingType1 {
+    font-size: 2.3em;
+    padding: 0.5em 0 0.5em 0.3em;
+    text-align: center;
+    line-height: 1em;
+    width: 55%;
+}
+
+/* 4. Main */
+
+/* Hero Banner */
+#heroBanner {
+    background: #d7e0e8;
+    width: 67%;
+    position: relative;
+    top: -3em;
+}
+#city {
+    position: relative;
+    z-index: 2;
+    top: 3.2em;
+}
+#clouds {
+    position: absolute;
+    right: 10%;
+    width: 90%;
+    z-index: 2;
+    top: 5%;
+}
+#titlebg {
+    background: #ebd4c5;
+    position: relative;
+    top: -30em;
+    right: -27em;
+    padding: 2% 0;
+    width: 52%;
+    box-shadow: -0.7em 0.7em #c7a89480;
+}
+#titlebg .headingtype2 {
+    position: relative;
+    left: 41%;
+    font-size: 3.3em;
+    top: -0.8em;
+}
+/* Star Amination */
+.stars {
+    position: absolute;
+    z-index: 2;
+    margin-top: 3em;
+    margin-left: -15em;
+    animation: starsMove 5s infinite;
+    animation-timing-function: linear;
+}
+.stars::after {
+    content: '★';
+    width: 1em;
+    height: 1em;
+    color: #4d4942;
+}
+#star2 {
+    margin-left: -5em;
+}
+.stars1 {
+    margin-left: -44em;
+    animation: starsMove 10s infinite;
+}
+#star3 {
+    margin-left: -25em;
+    animation: starsMove 10s infinite;
+}
+#star4 {
+    margin-left: -10em;
+    animation: starsMove 12s infinite;
+}
+#star5 {
+    margin-left: -39em;
+    animation: starsMove 8s infinite;
+}
+#star6 {
+    margin-left: -20em;
+    animation: starsMove 12s infinite;
+}
+#star7 {
+    margin-left: -2em;
+    animation: starsMove 14s infinite;
+}
+#star8 {
+    margin-left: -40em;
+    animation: starsMove 14s infinite;
+}
+@keyframes starsMove {
+    from {top: 90%;}
+    to {top: 0px;}
+  }
+
+/* 4.1 Section 1 */
+
+#section1 {
+    justify-content: flex-end;
+    padding: 6% 6% 2% 5%;
+    margin-top: -18%;
+    background: #eac6af;
+}
+#bio {
+    display: flex;
+    justify-content: flex-end;
+}
+#aboutMe {
+    background: #d7e0e8;
+    width: 32%;
+    padding: 5%;
+    margin: 5% 0 5% 0%;
+    font-size: 0.7em;
+    line-height: 3em;
+    box-shadow: -0.7em 0.7em #c7a89480
+}
+h4 {
+    color: #655b5b;
+}
+#desktopTabletImage {
+    width: 43%;
+    box-shadow: -0.7em 0.7em #c7a8943b;
+}
+#mobileImage {
+    display: none;
+}
+
+/* 4.2 Section 2 */
+
+#section2,
+footer {
+    background: #aca9a9;
+}
+#section2 {
+    margin: 5% 2%;
+    padding: 5%;
+    position: relative;
+}
+#section2 p {
+    color: white;
+}
+#featuredProject {
+    background: #ebd4c5;
+    width: 32%;
+    padding: 2% 0 30% 2%;
+    position: absolute;
+    left: 12%;
+    top: 16%;
+    box-shadow: -0.5em 0.5em #bdb1a9;
+}
+#featuredProject p {
+    color: orange;
+}
+#featuredProjectImage {
+    position: relative;
+    border: 2px solid black;
+    width: 55%;
+    left: 42%;
+    top: 10%;
+    margin-bottom: 8em;
+}
+#landscapeImage {
+    width: 29%;
+    position: absolute;
+    top: 63%;
+    left: 8%;
+}
+#clientInfo {
+    position: absolute;
+    left: 51%;
+    top: 69%;
+}
+
+/* 4.3 Section 3 */
+
+#section3 {
+    padding: 5%;
+    width: 90%;
+    margin-top: 12%;
+    background-color: #d7e0e8;
+    
+}
+#article {
+    padding: 0 10%;
+}
+#article a:first-child {
+    text-decoration: none;
+}
+#section3 h2 {
+    font-size: 3em;
+}
+#blogs {
+    justify-content: space-between;
+}
+#blogs img {
+    width: 47%;
+    box-shadow: -0.5em 0.5em #b0bac3;
+}
+
+/* 4.4 Section 4 */
+
+#section4 {
+    margin-top: 7%;
+}
+#giraffe {
+    width: 46%;
+    padding: 5%;
+}
+#giraffe img {
+    border: 1px solid black;
+}
+#giraffe img:nth-child(2){
+    display: none;
+}
+#getInTouch {
+    background: #bfa48d;
+    box-shadow: -0.5em 0.5em #bfa48db3;
+    width: 57%;
+    padding: 1% 9%;
+}
+#getInTouch p {
+    color: white;
+}
+form {
+    text-align: center;
+}
+input {
+    width: 90%;
+}
+textarea {
+    width: 100%;
+    height: 10em;
+}
+button {
+    background-color: #ffeee2;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+}
+
+/* 5. Footer */
+
+footer {
+    justify-content: space-between;
+    padding: 1em 3em 0 3em;
+    margin-top: 7%;
+}
+footer ul {
+    display: flex;
+}
+footer li {
+    padding-right: 4%;
+}
+
+/* 6. Media Queries */
+
+/* 6.1 MediaQuery: Split Screen */
+@media only screen and (max-width:970px) {
+
+    /* Split Screen Rules */
+    #titlebg {
+        height: 10em;
+        top: -24em;
+    }
+    #titlebg .headingtype2 {
+        left: 10%;
+        font-size: 3em;
+        width: 10em;
+    }
+    #clouds {
+        top: 2%;
+    }
+    #aboutMe {
+        width: auto;
+    }
+    #featuredProject {
+        padding-bottom: 26%;
+    }
+    #getInTouch {
+        padding: 1% 9% 5% 9%;
+    }
+    footer {
+        font-size: small;
+    }
+}
+
+/* 6.2 MediaQuery: Tablet */
+
+@media only screen and (max-width:768px) {
+    
+    /* Tablet CSS Rules */
+    nav .headingType1 {
+        width: 29%;
+    }
+    #clouds {
+        top: 5%;
+    }
+    #titlebg {
+        position: absolute;
+        top: 12em;
+        right: 8em;
+        height: 15%;
+    }
+    #titlebg .headingtype2 {
+        left: 28%;
+        font-size: revert;
+    }
+    #section1 {
+        margin-top: 0;
+    }
+    #aboutMe {
+        width: auto;
+    }
+    #featuredProject {
+        padding-bottom: 20%;
+    }
+    #landscapeImage {
+        top: 71%;
+    }
+    #section3 h2 {
+        font-size: revert;
+    }
+    #getInTouch {
+        padding-bottom: 3%;
+    }
+    form {
+        line-height: 2em;
+    }
+    input {
+        width: 100%;
+    }
+    footer {
+        padding: 1em 2em 0 2em;
+        font-size: x-small;
+    }
+}
+
+
+/* 6.3 MediaQuery: Mobile */
+
+@media only screen and (max-width:480px) {
+
+    /* Mobile CSS Rules */
+    nav ul {
+        display: block;
+        padding-left: 0;
+    }
+    .flexContainer {
+        display: block;
+    }
+    nav {
+        text-align: center;
+    }
+    nav li {
+        padding: 0.7em;
+    }
+    nav .headingType1 {
+        display: none;
+    }
+    #heroBanner {
+        width: auto;
+        position: initial;
+        height: 16em;
+        margin: 0;
+    }
+    #desktopTabletImage {
+        display: none;
+    }
+    #mobileImage {
+        display: block;
+    }
+    #city {
+        top: 2.3em;
+    }
+    #clouds {
+        position: relative;
+        right: 0;
+        width: 100%;
+        top: -22em;
+    }
+    #titlebg {
+        position: relative;
+        width: 78%;
+        top: -14em;
+        right: -4em;
+    }
+    #titlebg .headingtype2 {
+        left: 4%;
+        top: 0;
+    }
+    #section1 {
+        display: block;
+        padding: 0 0 4% 0;
+    }
+    #aboutMe {
+        margin: 6% 6% 2% 5%;
+    }
+    #featuredProject {
+        width: 100%;
+        padding: 0;
+        position: initial;
+        text-align: center;
+    }
+    #featuredProjectImage {
+        position: initial;
+        width: auto;
+        margin-bottom: auto;
+        text-align: center;
+    }
+    #landscapeImage,
+    #clientInfo {
+        display: none;
+    }
+    #section3 {
+        width: 100%;
+    }
+    #article h2 {
+        text-decoration: underline;
+    }
+    #blogs {
+        display: block;
+    }
+    #blogs img {
+        width: auto;
+    }
+    #article .seeMore {
+        display: none;
+    }
+    #section4 {
+        display: block;
+        margin-top: auto;
+    }
+    #giraffe {
+        width: auto;
+        text-align: center;
+    }
+    #giraffe img:nth-child(2){
+        display: block;
+    }
+    #giraffe img:first-child{
+        display: none;
+    }
+    #getInTouch {
+        width: 95%;
+        padding: 5% 3%;
+        margin-left: 3%;
+    }
+    input {
+        height: 4em;
+    }
+    footer {
+        display: block;
+    }
+    footer li {
+        width: 100%;
+        text-align: center;
+    }
+
+}
