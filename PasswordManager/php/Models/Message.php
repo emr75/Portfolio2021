@@ -24,12 +24,12 @@ function send_email($to_address, $to_name, $from_address, $from_name,
     // **** SMTP server and account information.  
     //$mail->SMTPDebug = SMTP::DEBUG_SERVER;  
     $mail->isSMTP();                             // Set mailer to use SMTP
-    $mail->Host = 'smtp.gmail.com';              // Set SMTP server
+    $mail->Host = '#########';              // Set SMTP server
     $mail->SMTPSecure = 'tls';                   // Set encryption type
     $mail->Port = 587;                           // Set TCP port
     $mail->SMTPAuth = true;                      // Enable SMTP authentication
-    $mail->Username = 'helloworld1245603@gmail.com'; // Set SMTP username
-    $mail->Password = 'qycjxmroptxdbqdy';           // Set SMTP password
+    $mail->Username = '#########'; // Set SMTP username
+    $mail->Password = '#########';           // Set SMTP password
     $mail->Mailer   = "smtp";
     
     // Set From address, To address, subject, and body
